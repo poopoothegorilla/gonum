@@ -179,9 +179,9 @@ func (u unitPrinters) Swap(i, j int) {
 
 // NewDimension creates a new orthogonal dimension with the given symbol, and
 // returns the value of that dimension. The input symbol must not overlap with
-// any of the any of the SI base units or other symbols of common use in SI ("kg",
-// "J", etc.), and must not overlap with any other dimensions created by calls
-// to NewDimension. The SymbolExists function can check if the symbol exists.
+// any of the SI base units or other symbols of common use in SI ("kg", "J",
+// etc.), and must not overlap with any other dimensions created by calls to
+// NewDimension. The SymbolExists function can check if the symbol exists.
 // NewDimension will panic if the input symbol matches an existing symbol.
 //
 // NewDimension should only be called for unit types that are actually orthogonal
